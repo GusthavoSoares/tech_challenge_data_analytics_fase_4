@@ -1,0 +1,16 @@
+﻿ordem,secao,item,detalhe
+1,Premissas,Taxa de câmbio,"A base só traz rupia indiana e não traz cotação. Toda conversão é assumida, com a data ao lado na tabela dMoeda."
+2,Premissas,Corte de percepção,"Percentis 25 e 75 do rating desta base: abaixo <= 3,90 e acima >= 4,30. Corte fixo em 3,0 marcaria 6 produtos de 1.351."
+3,Premissas,rating_count é proxy,"A base não traz volume vendido. rating_count mede engajamento, não venda. Conclusão sobre receita é inferência."
+4,Caminho,1. Origem,"Amazon Sales Dataset no Kaggle: 1.465 linhas, 16 colunas, preços em texto com o símbolo da rupia."
+5,Caminho,2. Limpeza,"Tipagem com cultura en-US, símbolo e separador de milhar removidos, percentual convertido em proporção."
+6,Caminho,3. Consolidação,"92 IDs repetidos resolvidos por desempate: menos nulos vence, empate decide pelo maior rating_count. Sobram 1.351 produtos."
+7,Caminho,4. Modelagem,"Star schema: fProdutos no grão de produto, dCategoria com a hierarquia em colunas, fAvaliacoes e as tabelas de termos."
+8,Limites,Amostra,"A base cobre um recorte do catálogo da Amazon na Índia, não o catálogo inteiro nem outro país."
+9,Limites,Concentração,"97,2% dos produtos estão em três categorias. Conclusão sobre categoria pequena não tem amostra que sustente."
+10,Limites,Nota comprimida,"O rating vai de 2,0 a 5,0 com mediana 4,10. Não existe produto mal avaliado em termos absolutos nesta base."
+11,Limites,Texto da avaliação,review_title e review_content vêm colados por vírgula e o texto tem vírgula dentro. A contagem sai do review_id; o texto fica agregado por produto.
+12,Tratamentos,Categoria,"O campo é uma hierarquia separada por barra vertical, não uma lista. Virou coluna por nível, até 7. Explodir em linha inflaria toda soma em 4,2 vezes."
+13,Tratamentos,Chave da avaliação,review_id não é chave: 759 ids aparecem em produtos diferentes. A tabela usa sk_avaliacao como chave substituta.
+14,Tratamentos,Termos,"Stopwords em inglês mais os genéricos do domínio. Termo presente em só uma faixa costuma ser nome de marca, então a comparação usa só os presentes nas duas."
+15,Tratamentos,Moeda,"dMoeda é tabela desconectada. Alimenta a segmentação e as medidas por SELECTEDVALUE, não filtra o fato."

@@ -1,0 +1,13 @@
+# Power BI gera estes ao abrir o projeto
+*.pbip
+.pbi/
+localSettings.json
+
+# saida do Colab e do Jupyter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# sistema
+.DS_Store
+Thumbs.db

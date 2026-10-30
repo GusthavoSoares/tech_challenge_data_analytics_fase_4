@@ -1,0 +1,93 @@
+﻿product_id,registros,colunas_divergentes,qtd_colunas_divergentes,mantido_rating_count,mantido_nulos
+B002PD61Y4,2,(so links e/ou categoria),0,8131,0
+B008FWZGSG,2,review_content,1,355,0
+B00NH11KIK,2,rating_count,1,107687,0
+B00NH11PEY,2,(so links e/ou categoria),0,74976,0
+B0141EZMAI,2,(so links e/ou categoria),0,10134,0
+B01DEWVZ2C,2,rating_count,1,192590,0
+B01FSYQ2A4,2,rating_count,1,97175,0
+B01GGKYKQM,3,rating_count,1,20053,0
+B01GGKZ0V6,2,(so links e/ou categoria),0,29746,0
+B01M4GGIVU,2,(so links e/ou categoria),0,12153,0
+B07232M876,2,(so links e/ou categoria),0,92595,0
+B077Z65HSD,3,"user_id, user_name, review_id, review_title, review_content",5,20850,0
+B0789LZTCJ,2,rating_count,1,94364,0
+B078G6ZF5Z,2,rating_count,1,14404,0
+B07DJLFMPS,2,about_product,1,32625,0
+B07GVGTSLN,2,(so links e/ou categoria),0,10576,0
+B07JW9H4J1,3,"rating_count, review_content",2,24270,0
+B07KRCW6LZ,2,(so links e/ou categoria),0,12093,0
+B07KSMBL2H,2,rating_count,1,426973,0
+B07P681N66,2,(so links e/ou categoria),0,24780,0
+B07RD611Z8,2,(so links e/ou categoria),0,18678,0
+B07WG8PDCW,2,rating_count,1,14283,0
+B07XJYYH7L,2,(so links e/ou categoria),0,9792,0
+B07XLCFSSN,3,(so links e/ou categoria),0,13552,0
+B082LSVT4B,2,(so links e/ou categoria),0,43994,0
+B082LZGK39,2,(so links e/ou categoria),0,43994,0
+B082T6V3DT,3,(so links e/ou categoria),0,8188,0
+B083342NKJ,3,"about_product, review_content",2,18757,0
+B085194JFL,2,(so links e/ou categoria),0,10962,0
+B085DTN6R2,3,rating_count,1,2263,0
+B085HY1DGR,2,(so links e/ou categoria),0,1396,0
+B08BCKN299,2,review_content,1,6491,0
+B08BQ947H3,2,(so links e/ou categoria),0,10833,0
+B08CDKQ8T6,2,(so links e/ou categoria),0,7064,0
+B08CF3B7N1,3,(so links e/ou categoria),0,16905,0
+B08CF3D7QR,3,about_product,1,13391,0
+B08DDRGWTJ,3,(so links e/ou categoria),0,30411,0
+B08DPLCM6T,2,(so links e/ou categoria),0,11976,0
+B08HDJ86NZ,3,rating_count,1,94364,0
+B08K4PSZ3V,2,(so links e/ou categoria),0,16557,0
+B08MTCKDYN,2,review_content,1,5999,0
+B08QSC1XY8,2,(so links e/ou categoria),0,974,0
+B08R69VDHT,3,(so links e/ou categoria),0,7732,0
+B08WRBG3XW,2,"user_id, user_name, review_id, review_title, review_content",5,13045,0
+B08WRWPM22,3,rating_count,1,15189,0
+B08Y1SJVV5,2,"rating_count, user_id, user_name, review_id, review_title, review_content",6,24871,0
+B08Y1TFSP6,3,"rating_count, user_id, user_name, review_id, review_title, review_content",6,24871,0
+B0949SBKMP,2,review_content,1,26880,0
+B094JNXNPV,2,(so links e/ou categoria),0,2766,0
+B094YFFSMY,2,(so links e/ou categoria),0,3382,0
+B096MSW6CT,3,"actual_price_rupia, discount_percentage, about_product, review_content",4,7928,0
+B096VF5YYF,2,rating_count,1,48449,0
+B097R25DP7,2,"rating_count, user_id, user_name, review_id, review_title, review_content",6,67951,0
+B098NS6PVG,3,rating_count,1,43994,0
+B0994GFWBH,2,(so links e/ou categoria),0,1313,0
+B09C6HWG18,2,(so links e/ou categoria),0,462,0
+B09C6HXFC1,3,(so links e/ou categoria),0,815,0
+B09CMM3VGK,2,rating_count,1,1934,0
+B09CMP1SC8,3,(so links e/ou categoria),0,602,0
+B09F6S8BT6,2,(so links e/ou categoria),0,16299,0
+B09F9YQQ7B,2,rating_count,1,45238,0
+B09KGV7WSV,2,(so links e/ou categoria),0,17129,0
+B09KLVMZ3B,3,(so links e/ou categoria),0,4768,0
+B09MQSCJQ1,2,rating_count,1,69622,0
+B09MT84WV5,2,"discounted_price_rupia, discount_percentage, rating_count, user_id, user_name, review_id, review_title, review_content",8,140036,0
+B09NHVCHS9,3,rating_count,1,9378,0
+B09NVPSCQT,2,"user_id, user_name, review_id, review_title, review_content",5,30254,0
+B09Q8HMKZX,2,(so links e/ou categoria),0,450,0
+B09RWZRCP1,2,(so links e/ou categoria),0,1780,0
+B09RZS1NQT,2,rating_count,1,576,0
+B09V12K8NT,2,"rating_count, user_id, user_name, review_id, review_title, review_content",6,21797,0
+B09W5XR9RT,3,(so links e/ou categoria),0,184,0
+B09YLXYP7Y,3,(so links e/ou categoria),0,1423,0
+B09YV4MW2T,2,"rating_count, user_id, user_name, review_id, review_title, review_content",6,29478,0
+B09YV4RG4D,2,rating_count,1,22638,0
+B09Z6WH2N1,2,(so links e/ou categoria),0,1949,0
+B09ZQK9X8G,2,"user_id, user_name, review_id, review_title, review_content",5,5179,0
+B0B2DJDCPX,2,(so links e/ou categoria),0,536,0
+B0B3MWYCHQ,2,rating_count,1,20881,0
+B0B3N7LR6K,2,rating_count,1,17162,0
+B0B3RRWSF6,2,rating_count,1,27709,0
+B0B4DT8MKT,2,(so links e/ou categoria),0,656,0
+B0B4HJNPV4,2,(so links e/ou categoria),0,1075,0
+B0B5B6PQCT,2,"discounted_price_rupia, discount_percentage, rating_count",3,17833,0
+B0B5LVS732,2,"discounted_price_rupia, discount_percentage",2,10689,0
+B0B5ZF3NRK,2,(so links e/ou categoria),0,210,0
+B0B86CDHL1,2,review_content,1,149,0
+B0B9BD2YL4,2,(so links e/ou categoria),0,1526,0
+B0B9BXKBC7,2,(so links e/ou categoria),0,245,0
+B0BDRVFDKP,2,rating_count,1,67262,0
+B0BFWGBX61,2,(so links e/ou categoria),0,314,0
+B0BMXMLSMM,2,(so links e/ou categoria),0,127,0
