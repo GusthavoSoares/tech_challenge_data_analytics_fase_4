@@ -9,6 +9,36 @@ atenção, e quais oportunidades os dados revelam.** A cadeia que a liderança q
 Base: [Amazon Sales Dataset no Kaggle](https://www.kaggle.com/datasets/karkavelrajaj/amazon-sales-dataset),
 1.465 linhas e 16 colunas, preços em rupia indiana.
 
+## Entregáveis
+
+**Vídeo executivo:** <https://youtu.be/ZIk8-Yih-8w>
+
+**Painel:** [`dashboard/tc4_amazon.pbix`](dashboard/tc4_amazon.pbix)
+
+## Como abrir o painel
+
+Baixe o repositório (botão **Code**, depois **Download ZIP**), extraia e abra
+`dashboard/tc4_amazon.pbix` no Power BI Desktop.
+
+**Não precisa configurar nada.** O modelo é de importação, então os dados estão gravados
+dentro do próprio `.pbix`. As 14 páginas abrem com os números já carregados.
+
+São 6 páginas de leitura no menu da esquerda, mais uma lista de produtos que se alcança
+pelo botão da Visão executiva, e 7 páginas de dica que aparecem ao passar o mouse sobre
+os indicadores com selo dourado.
+
+### Só se você quiser atualizar a partir dos CSV
+
+Aí sim é preciso ajustar o caminho, porque cada consulta aponta para a pasta da máquina
+onde o painel foi montado. São 8 consultas, uma por tabela.
+
+Em **Página Inicial > Transformar dados**, abra cada consulta, clique na engrenagem ao
+lado de **Origem** e troque a pasta pelo `results/` que veio no ZIP. Depois
+**Fechar e Aplicar**.
+
+Isso só é necessário para recarregar os dados. Para ver, conferir e navegar o painel,
+abrir o arquivo basta.
+
 ## Estrutura
 
 ```
@@ -21,7 +51,7 @@ Base: [Amazon Sales Dataset no Kaggle](https://www.kaggle.com/datasets/karkavelr
 │   └── tc_4_amazon_modelagem_powerbi.ipynb     modelagem em star schema
 ├── results/                                    as 9 tabelas que alimentam o painel
 └── dashboard/
-    └── tc4_amazon.pbix                         o entregável
+    └── tc4_amazon.pbix                         o painel, com os dados dentro
 ```
 
 ## Os três notebooks
