@@ -1,6 +1,6 @@
 # Tech Challenge Fase 4: Amazon Product Performance & Customer Insights
 
-PosTech FIAP Data Analytics, Grupo 21.
+PosTech FIAP Data Analytics.
 
 A empresa quer saber **quais produtos, categorias e estratégias comerciais merecem maior
 atenção, e quais oportunidades os dados revelam.** A cadeia que a liderança quer enxergar
@@ -139,7 +139,7 @@ então qualquer leitura de receita é inferência.
 arquivo traz 10.598 linhas de texto. A análise de termos usa só a segunda, e nenhuma
 conclusão dela vale para as 23,8 milhões.
 
-## Grupo 21
+## Integrantes
 
 | Nome | RM |
 |---|---|
