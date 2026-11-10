@@ -20,24 +20,25 @@ Base: [Amazon Sales Dataset no Kaggle](https://www.kaggle.com/datasets/karkavelr
 Baixe o repositório (botão **Code**, depois **Download ZIP**), extraia e abra
 `dashboard/tc4_amazon.pbix` no Power BI Desktop.
 
-**Não precisa configurar nada.** O modelo é de importação, então os dados estão gravados
-dentro do próprio `.pbix`. As 14 páginas abrem com os números já carregados.
+O modelo é de importação, então os dados estão gravados dentro do próprio `.pbix` e as
+14 páginas abrem com os números já carregados. Se o Power BI pedir a origem dos dados,
+aponte para a pasta `results/` que veio no ZIP.
 
 São 6 páginas de leitura no menu da esquerda, mais uma lista de produtos que se alcança
 pelo botão da Visão executiva, e 7 páginas de dica que aparecem ao passar o mouse sobre
 os indicadores com selo dourado.
 
-### Só se você quiser atualizar a partir dos CSV
+### Para atualizar a partir dos CSV
 
-Aí sim é preciso ajustar o caminho, porque cada consulta aponta para a pasta da máquina
-onde o painel foi montado. São 8 consultas, uma por tabela.
+Cada consulta aponta para a pasta da máquina onde o painel foi montado, e são 8, uma por
+tabela.
 
 Em **Página Inicial > Transformar dados**, abra cada consulta, clique na engrenagem ao
 lado de **Origem** e troque a pasta pelo `results/` que veio no ZIP. Depois
 **Fechar e Aplicar**.
 
-Isso só é necessário para recarregar os dados. Para ver, conferir e navegar o painel,
-abrir o arquivo basta.
+Isso só é necessário para recarregar os dados do zero. Para ver e navegar o painel, o
+arquivo já vem com tudo dentro.
 
 ## Estrutura
 
